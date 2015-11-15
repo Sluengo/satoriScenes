@@ -1,3 +1,28 @@
+/* Navbar Styles */
+.navbar > .container {width:auto;}
+
+
+
+.navSelect {
+	margin-top: 30px;
+	font-size: 0.9em;
+}
+
+
+
+#mainName:hover {
+    opacity:0.5;
+}
+
+#navContainer {
+	
+	padding-bottom: 25px;
+
+  
+}
+
+
+/* Main Content -Index.html */
 
 body {
 
@@ -41,33 +66,65 @@ img:hover {
    padding-left: 0;
 }
 
+.borderReveal:hover {
+
+	border:8px solid black;
+}
 
 
+/* Main Content -About.html */
 
-/* Navbar Styles */
-.navbar > .container {width:auto;}
+.center {
+	text-align: center;
+}
 
+#aboutPic {
+	border-radius: 10px;
+}
 
+#aboutHeader {
 
-.navSelect {
-	margin-top: 30px;
-	font-size: 0.9em;
+	text-decoration: underline;
+}
+
+#aboutRow {
+
+	margin-bottom: 10px;
+}
+
+#lineHeight h3 {
+
+	line-height: 150%;
 }
 
 
 
-#mainName:hover {
-    opacity:0.5;
-}
 
-#navContainer {
-	
-	padding-bottom: 25px;
-
-  
-}
+/* footer Styles */
 
 footer {
 
 	text-align: center;
+	background-color: #000000;
+	padding:50px;
+	margin-top: 1px;
 }
+
+p {
+
+	color:white;
+	font-size: 20px;
+}
+
+#facebookIcon {
+	margin-bottom: 6px;
+}
+
+.footerPush {
+	margin-bottom: 20px;
+}
+
+
+
+
+
